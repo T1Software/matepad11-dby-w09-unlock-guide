@@ -1,0 +1,27 @@
+# Byte-compiled
+__pycache__/
+*.py[cod]
+
+# Firmware and device dumps — never commit these
+*.zip
+*.rar
+*.7z
+*.bin
+*.img
+*.elf
+*.apk
+*.APP
+*.mbn
+*.dbk
+
+# Working directories
+backup/
+stage/
+work/
+parts/
+downloads/
+edl/
+
+# Local
+*.log
+.env
