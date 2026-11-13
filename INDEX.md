@@ -1,12 +1,13 @@
 # What is in this repository
 
-| File | Contents |
+| Path | Contents |
 |---|---|
 | [README.md](README.md) | The full walkthrough, stages 0–8, troubleshooting, restore |
 | [CHEATSHEET.md](CHEATSHEET.md) | Verified commands, hashes, geometry, one-liner fixes |
 | [DEAD-ENDS.md](DEAD-ENDS.md) | 14 approaches that do not work on this device, and why |
 | [SCRIPTS.md](SCRIPTS.md) | Source of every script used, with explanations |
 | [scripts/](scripts/) | The same scripts as runnable files |
+| [adb-toggle/](adb-toggle/) | Companion app: toggles ADB-over-Wi-Fi on the tablet |
 
 ## Scripts
 
@@ -20,6 +21,13 @@
 | `scripts/build_gms_module.py` | Build the APatch GMS module from MindTheGapps |
 
 All are Python 3.10+ and dependency-free except `build_gms_module.py` (stdlib only too).
+
+## Companion app
+
+`adb-toggle/` is a small Android app that switches ADB-over-TCP on and off from the tablet.
+HarmonyOS on this model ships no wireless-debugging toggle — this replaces it. See
+[adb-toggle/README.md](adb-toggle/README.md) for build instructions; it builds without Gradle
+in about two seconds.
 
 ## Not included
 

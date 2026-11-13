@@ -71,6 +71,10 @@ oeminfo LUN 0  offset 0x0000300000   sector 12288   24576 sectors  96 MiB
 13. [Restore / undo](#13-restore--undo)
 14. [Reference](#14-reference)
 
+**Companion app:** [`adb-toggle/`](adb-toggle/) — a 21 KB Android app that toggles ADB-over-Wi-Fi
+from the tablet. HarmonyOS on this model has no wireless-debugging toggle in Developer options;
+this replaces it. See [adb-toggle/README.md](adb-toggle/README.md).
+
 ---
 
 ## 1. Prerequisites
